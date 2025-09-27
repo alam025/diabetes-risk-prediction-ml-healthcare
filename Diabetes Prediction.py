@@ -5,6 +5,14 @@
 
 # In[1]:
 
+"""
+MEDICAL DISCLAIMER:
+This diabetes prediction system is for educational and research purposes only.
+It is not intended to provide medical advice, diagnosis, or treatment.
+Always consult with qualified healthcare professionals for medical decisions.
+Clinical validation required before any medical implementation.
+"""
+
 
 import numpy as np
 import pandas as pd
