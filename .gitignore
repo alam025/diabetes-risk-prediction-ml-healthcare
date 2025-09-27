@@ -1,0 +1,173 @@
+# Diabetes Risk Prediction ML Healthcare - .gitignore
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# Environments
+.env
+.env.local
+.env.production
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+diabetes_env/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# Project Specific - Healthcare Data
+# Medical datasets (sensitive patient data)
+data/diabetes_dataset.csv
+data/raw/
+data/processed/
+data/external/
+*.csv
+*.xlsx
+*.json
+
+# Trained models
+models/diabetes_classifier.pkl
+models/feature_scaler.pkl
+models/ensemble/
+*.pkl
+*.joblib
+*.h5
+
+# Generated plots and medical visualizations
+plots/
+visualizations/
+*.png
+*.jpg
+*.jpeg
+*.pdf
+
+# Log files
+logs/
+*.log
+medical_logs/
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+*.temp
+
+# Backup files
+*.bak
+*.backup
+
+# Healthcare compliance
+patient_data/
+clinical_records/
+hipaa_data/
+
+# Model experiments
+experiments/
+mlruns/
+wandb/
+
+# Performance reports
+reports/
+clinical_validation/
+
+# API keys and medical credentials
+medical_api_keys.json
+healthcare_config.ini
+clinical_secrets.json
