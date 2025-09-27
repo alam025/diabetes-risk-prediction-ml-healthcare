@@ -151,7 +151,7 @@ classifier.fit(X_train, Y_train)
 # #Accuracy Score
 
 # In[21]:
-
+#medical testing
 
 #accuracy score on the training data
 X_train_prediction = classifier.predict(X_train)
